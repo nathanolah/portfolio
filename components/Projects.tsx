@@ -1,8 +1,8 @@
 import React from "react";
-import bulletinBoardImg from "../public/assets/projects/bulletinboard-prj.jpg";
-import portfolioImg from "../public/assets/projects/portfolio-prj.jpg";
-import weatherapiImg from "../public/assets/projects/weatherapi-prj.jpg";
-import tokenImg from "../public/assets/projects/token-prj.jpg";
+import bulletinBoardImg from "../public/assets/projects/bulletinboard-prj.png";
+import portfolioImg from "../public/assets/projects/portfolio-prj.png";
+import weatherapiImg from "../public/assets/projects/weatherapi-prj.png";
+import tokenImg from "../public/assets/projects/token-prj.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
