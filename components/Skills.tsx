@@ -28,6 +28,7 @@ import vimImg from "../public/assets/skills/vim-logo.png";
 import angularImg from "../public/assets/skills/angular-logo.png";
 import azureImg from "../public/assets/skills/azure-logo.png";
 import jenkinsImg from "../public/assets/skills/jenkins-logo.png";
+import pythonImg from "../public/assets/skills/python-logo.png";
 
 const Skills = () => {
   const { theme } = useTheme();
@@ -77,6 +78,11 @@ const Skills = () => {
             imageSrc={csharpImg}
             name="C#"
             bgGradient="from-[#e37af3]"
+          />
+          <SkillsItem
+            imageSrc={pythonImg}
+            name="Python"
+            bgGradient="from-[#7db8e9]"
           />
           <SkillsItem
             imageSrc={htmlImg}

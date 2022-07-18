@@ -137,6 +137,15 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+      {/* Footer */}
+      <div className="w-full">
+        <div className="mx-auto w-full py-14">
+          <div className="border-b border-[#cccce0] dark:border-[#11113d] "></div>
+          <div className="flex justify-center items-center text-center text-sm font-medium py-4 text-gray-400 dark:text-[#4F4F5E]">
+            Copyright &copy; {new Date().getFullYear()} - Nathan Olah{" "}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
