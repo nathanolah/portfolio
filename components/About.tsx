@@ -18,9 +18,10 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-700 dark:text-gray-400">
             I am a highly motivated individual with a strong passion for
-            software development. What I enjoy most about software are the
-            problem solving and creativity aspects as this constantly pushes me
-            to learn and think critically throughout the development process.
+            software development. What I enjoy most about software development
+            are the problem solving and creativity aspects as this constantly
+            pushes me to learn and think critically throughout the development
+            process.
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-2xl shadow-gray-500 dark:shadow-[#0b0d25fb] rounded-full flex items-center justify-center my-7 bg-[#9494c0] dark:bg-[#1D1D55]">
