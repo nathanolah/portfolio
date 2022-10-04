@@ -29,6 +29,10 @@ import angularImg from "../public/assets/skills/angular-logo.png";
 import azureImg from "../public/assets/skills/azure-logo.png";
 import jenkinsImg from "../public/assets/skills/jenkins-logo.png";
 import pythonImg from "../public/assets/skills/python-logo.png";
+import solidityImg from "../public/assets/skills/solidity-logo.png";
+import truffleImg from "../public/assets/skills/truffle-logo.png";
+import terraformImg from "../public/assets/skills/terraform-logo.png";
+import awsCCPImg from "../public/assets/certs/aws-certified-cloud-practitioner.png";
 
 const Skills = () => {
   const { theme } = useTheme();
@@ -41,7 +45,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full  p-2 py-24">
       <div className="mx-auto max-w-4xl flex flex-col justify-center ">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase text-[#6858ff]">
           Technical Skills
         </p>
         <h2 className="py-4 font-semibold">Languages</h2>
@@ -74,6 +78,11 @@ const Skills = () => {
             bgGradient="from-[#87b2cc]"
           />
           <SkillsItem imageSrc={goImg} name="Go" bgGradient="from-[#86e0f7]" />
+          <SkillsItem
+            imageSrc={solidityImg}
+            name="Solidity"
+            bgGradient="from-[#a1a1a1]"
+          />
           <SkillsItem
             imageSrc={csharpImg}
             name="C#"
@@ -158,6 +167,16 @@ const Skills = () => {
             bgGradient="from-[#f19f90]"
           />
           <SkillsItem
+            imageSrc={terraformImg}
+            name="Terraform"
+            bgGradient="from-[#8577ff]"
+          />
+          <SkillsItem
+            imageSrc={truffleImg}
+            name="Truffle"
+            bgGradient="from-[#8f6c75]"
+          />
+          <SkillsItem
             imageSrc={vimImg}
             name="Vim"
             bgGradient="from-[#74cf92]"
@@ -167,6 +186,7 @@ const Skills = () => {
             name="Angular"
             bgGradient="from-[#fa8c88]"
           />
+
           <SkillsItem
             imageSrc={azureImg}
             name="Azure"
@@ -176,6 +196,15 @@ const Skills = () => {
             imageSrc={jenkinsImg}
             name="Jenkins"
             bgGradient="from-[#7898ac]"
+          />
+        </div>
+        <h2 className="py-7 font-semibold">Certifications</h2>
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <SkillsItem
+            imageSrc={awsCCPImg}
+            name="AWS Cloud Practitioner"
+            bgGradient="from-[#90a3bd]"
+            url="https://www.credly.com/badges/16d30b4f-a7a2-4154-b902-8227f6996869/public_url"
           />
         </div>
       </div>
