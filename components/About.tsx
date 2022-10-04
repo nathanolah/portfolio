@@ -13,8 +13,8 @@ const About = () => {
           <h2 className="py-4 font-semibold">Who I Am</h2>
           <p className="py-2 text-gray-700 dark:text-gray-400">
             I am a highly motivated individual with a strong passion for
-            software development. I would describe myself as a great team
-            player, with strong problem-solving skills, a self-learner, and
+            software development. I would describe myself as a great team player
+            with strong problem-solving skills, a self-learner, and
             independently driven.
           </p>
           <p className="py-2 text-gray-700 dark:text-gray-400">
