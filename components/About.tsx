@@ -23,8 +23,10 @@ const About = () => {
             think critically throughout the development process.
           </p>
           <p className="py-2 text-gray-700 dark:text-gray-400">
-            I am also a graduate of the 3-year Computer Programming and Analysis
-            program at Seneca College.
+            I am currently pursuing a B.Tech degree in Software Engineering
+            Technology at McMaster University in Hamilton, ON. I am also a
+            graduate of the 3-year Computer Programming and Analysis program at
+            Seneca College.
           </p>
         </div>
 

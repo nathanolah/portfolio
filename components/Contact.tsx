@@ -26,8 +26,8 @@ const Contact = () => {
                   Software Developer
                 </p>
                 <p className="py-4 text-gray-700 dark:text-gray-300">
-                  I am available for full-time positions. Contact me and let's
-                  talk!
+                  I am available for full-time positions. Please feel free to
+                  reach out to me at your convenience.
                 </p>
               </div>
 
